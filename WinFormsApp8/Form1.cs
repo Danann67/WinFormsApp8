@@ -6,5 +6,10 @@ namespace WinFormsApp8
         {
             InitializeComponent();
         }
+
+        private void expense_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
