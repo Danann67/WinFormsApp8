@@ -16,5 +16,15 @@ namespace WinFormsApp8
         {
 
         }
+
+        private void uiButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uiButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
