@@ -80,6 +80,7 @@
             uiLabel1 = new Sunny.UI.UILabel();
             tabPage6 = new TabPage();
             tabPage7 = new TabPage();
+<<<<<<< HEAD
             uiLabel26 = new Sunny.UI.UILabel();
             imageListEXPENSE = new ImageList(components);
             uiLabel27 = new Sunny.UI.UILabel();
@@ -93,12 +94,31 @@
             uiTextBox3 = new Sunny.UI.UITextBox();
             uiComboBox1 = new Sunny.UI.UIComboBox();
             uiDatePicker1 = new Sunny.UI.UIDatePicker();
+=======
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            progressBar5 = new ProgressBar();
+            label7 = new Label();
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             uiButton1 = new Sunny.UI.UIButton();
             uiButton2 = new Sunny.UI.UIButton();
             uiButton3 = new Sunny.UI.UIButton();
             uiButton4 = new Sunny.UI.UIButton();
+<<<<<<< HEAD
             uiButton5 = new Sunny.UI.UIButton();
             uiDataGridView1 = new Sunny.UI.UIDataGridView();
+=======
+            dataGridView1 = new DataGridView();
+            label9 = new Label();
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
@@ -108,7 +128,11 @@
             tabPage3.SuspendLayout();
             tabPage4.SuspendLayout();
             tabPage5.SuspendLayout();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)uiDataGridView1).BeginInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             SuspendLayout();
             // 
             // uiTabControlMenu1
@@ -124,18 +148,20 @@
             uiTabControlMenu1.DrawMode = TabDrawMode.OwnerDrawFixed;
             uiTabControlMenu1.Font = new Font("Microsoft Sans Serif", 12F);
             uiTabControlMenu1.Location = new Point(0, 1);
+            uiTabControlMenu1.Margin = new Padding(2);
             uiTabControlMenu1.Multiline = true;
             uiTabControlMenu1.Name = "uiTabControlMenu1";
             uiTabControlMenu1.SelectedIndex = 0;
-            uiTabControlMenu1.Size = new Size(1685, 892);
+            uiTabControlMenu1.Size = new Size(1348, 714);
             uiTabControlMenu1.SizeMode = TabSizeMode.Fixed;
             uiTabControlMenu1.TabIndex = 0;
             // 
             // tabPage1
             // 
             tabPage1.Location = new Point(201, 0);
+            tabPage1.Margin = new Padding(2);
             tabPage1.Name = "tabPage1";
-            tabPage1.Size = new Size(1484, 892);
+            tabPage1.Size = new Size(1147, 714);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Dashboard";
             tabPage1.UseVisualStyleBackColor = true;
@@ -143,8 +169,9 @@
             // tabPage2
             // 
             tabPage2.Location = new Point(201, 0);
+            tabPage2.Margin = new Padding(2);
             tabPage2.Name = "tabPage2";
-            tabPage2.Size = new Size(1484, 892);
+            tabPage2.Size = new Size(1147, 714);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Income";
             tabPage2.UseVisualStyleBackColor = true;
@@ -170,18 +197,37 @@
             tabPage3.Controls.Add(uiLabel27);
             tabPage3.Controls.Add(uiLabel26);
             tabPage3.Location = new Point(201, 0);
+            tabPage3.Margin = new Padding(2);
             tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(1484, 892);
+            tabPage3.Size = new Size(1147, 714);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Expenses";
             tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabPage4
             // 
-            tabPage4.Controls.Add(button2);
+            tabPage4.Controls.Add(label9);
+            tabPage4.Controls.Add(dataGridView1);
+            tabPage4.Controls.Add(uiButton4);
+            tabPage4.Controls.Add(uiButton3);
+            tabPage4.Controls.Add(uiButton2);
+            tabPage4.Controls.Add(uiButton1);
+            tabPage4.Controls.Add(label7);
+            tabPage4.Controls.Add(progressBar5);
+            tabPage4.Controls.Add(textBox4);
+            tabPage4.Controls.Add(textBox3);
+            tabPage4.Controls.Add(textBox2);
+            tabPage4.Controls.Add(textBox1);
+            tabPage4.Controls.Add(label6);
+            tabPage4.Controls.Add(label5);
+            tabPage4.Controls.Add(label4);
+            tabPage4.Controls.Add(label3);
+            tabPage4.Controls.Add(label2);
+            tabPage4.Controls.Add(label1);
             tabPage4.Location = new Point(201, 0);
+            tabPage4.Margin = new Padding(2);
             tabPage4.Name = "tabPage4";
-            tabPage4.Size = new Size(1484, 892);
+            tabPage4.Size = new Size(1147, 714);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Goals";
             tabPage4.UseVisualStyleBackColor = true;
@@ -233,8 +279,9 @@
             tabPage5.Controls.Add(income);
             tabPage5.Controls.Add(uiLabel1);
             tabPage5.Location = new Point(201, 0);
+            tabPage5.Margin = new Padding(2);
             tabPage5.Name = "tabPage5";
-            tabPage5.Size = new Size(1484, 892);
+            tabPage5.Size = new Size(1147, 714);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "Reports";
             tabPage5.UseVisualStyleBackColor = true;
@@ -243,9 +290,10 @@
             // 
             button1.BackColor = Color.Indigo;
             button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(680, 813);
+            button1.Location = new Point(544, 650);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(165, 51);
+            button1.Size = new Size(132, 41);
             button1.TabIndex = 34;
             button1.Text = "Exit";
             button1.UseVisualStyleBackColor = false;
@@ -257,9 +305,10 @@
             uiLabel25.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel25.ImageKey = "306405.png";
             uiLabel25.ImageList = imageList1;
-            uiLabel25.Location = new Point(12, 10);
+            uiLabel25.Location = new Point(10, 8);
+            uiLabel25.Margin = new Padding(2, 0, 2, 0);
             uiLabel25.Name = "uiLabel25";
-            uiLabel25.Size = new Size(102, 73);
+            uiLabel25.Size = new Size(82, 58);
             uiLabel25.TabIndex = 33;
             // 
             // imageList1
@@ -286,9 +335,10 @@
             uiLabel24.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel24.ImageKey = "a-education-icon-education-icon-11553430161bimwyohogu.png";
             uiLabel24.ImageList = imageList1;
-            uiLabel24.Location = new Point(200, 664);
+            uiLabel24.Location = new Point(160, 531);
+            uiLabel24.Margin = new Padding(2, 0, 2, 0);
             uiLabel24.Name = "uiLabel24";
-            uiLabel24.Size = new Size(103, 96);
+            uiLabel24.Size = new Size(82, 77);
             uiLabel24.TabIndex = 32;
             // 
             // uiLabel23
@@ -298,9 +348,10 @@
             uiLabel23.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel23.ImageKey = "2331970.png";
             uiLabel23.ImageList = imageList1;
-            uiLabel23.Location = new Point(200, 568);
+            uiLabel23.Location = new Point(160, 454);
+            uiLabel23.Margin = new Padding(2, 0, 2, 0);
             uiLabel23.Name = "uiLabel23";
-            uiLabel23.Size = new Size(103, 96);
+            uiLabel23.Size = new Size(82, 77);
             uiLabel23.TabIndex = 31;
             // 
             // uiLabel22
@@ -310,9 +361,10 @@
             uiLabel22.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel22.ImageKey = "190190.png";
             uiLabel22.ImageList = imageList1;
-            uiLabel22.Location = new Point(200, 472);
+            uiLabel22.Location = new Point(160, 378);
+            uiLabel22.Margin = new Padding(2, 0, 2, 0);
             uiLabel22.Name = "uiLabel22";
-            uiLabel22.Size = new Size(103, 96);
+            uiLabel22.Size = new Size(82, 77);
             uiLabel22.TabIndex = 30;
             // 
             // uiLabel21
@@ -322,9 +374,10 @@
             uiLabel21.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel21.ImageKey = "food-icon-7.png";
             uiLabel21.ImageList = imageList1;
-            uiLabel21.Location = new Point(200, 393);
+            uiLabel21.Location = new Point(160, 314);
+            uiLabel21.Margin = new Padding(2, 0, 2, 0);
             uiLabel21.Name = "uiLabel21";
-            uiLabel21.Size = new Size(103, 96);
+            uiLabel21.Size = new Size(82, 77);
             uiLabel21.TabIndex = 29;
             // 
             // uiLabel20
@@ -333,9 +386,10 @@
             uiLabel20.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel20.ImageKey = "4599210.png";
             uiLabel20.ImageList = imageList1;
-            uiLabel20.Location = new Point(1073, 118);
+            uiLabel20.Location = new Point(858, 94);
+            uiLabel20.Margin = new Padding(2, 0, 2, 0);
             uiLabel20.Name = "uiLabel20";
-            uiLabel20.Size = new Size(64, 51);
+            uiLabel20.Size = new Size(51, 41);
             uiLabel20.TabIndex = 28;
             // 
             // uiLabel19
@@ -344,9 +398,10 @@
             uiLabel19.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel19.ImageKey = "10149443.png";
             uiLabel19.ImageList = imageList1;
-            uiLabel19.Location = new Point(569, 102);
+            uiLabel19.Location = new Point(455, 82);
+            uiLabel19.Margin = new Padding(2, 0, 2, 0);
             uiLabel19.Name = "uiLabel19";
-            uiLabel19.Size = new Size(60, 67);
+            uiLabel19.Size = new Size(48, 54);
             uiLabel19.TabIndex = 27;
             // 
             // uiLabel18
@@ -355,9 +410,10 @@
             uiLabel18.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel18.ImageKey = "1571098.png";
             uiLabel18.ImageList = imageList1;
-            uiLabel18.Location = new Point(74, 101);
+            uiLabel18.Location = new Point(59, 81);
+            uiLabel18.Margin = new Padding(2, 0, 2, 0);
             uiLabel18.Name = "uiLabel18";
-            uiLabel18.Size = new Size(71, 68);
+            uiLabel18.Size = new Size(57, 54);
             uiLabel18.TabIndex = 26;
             // 
             // uiLabel17
@@ -365,9 +421,10 @@
             uiLabel17.BackColor = Color.Lavender;
             uiLabel17.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel17.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel17.Location = new Point(1188, 680);
+            uiLabel17.Location = new Point(950, 544);
+            uiLabel17.Margin = new Padding(2, 0, 2, 0);
             uiLabel17.Name = "uiLabel17";
-            uiLabel17.Size = new Size(155, 44);
+            uiLabel17.Size = new Size(124, 35);
             uiLabel17.TabIndex = 25;
             // 
             // uiLabel16
@@ -375,9 +432,10 @@
             uiLabel16.BackColor = Color.Lavender;
             uiLabel16.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel16.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel16.Location = new Point(1188, 600);
+            uiLabel16.Location = new Point(950, 480);
+            uiLabel16.Margin = new Padding(2, 0, 2, 0);
             uiLabel16.Name = "uiLabel16";
-            uiLabel16.Size = new Size(155, 44);
+            uiLabel16.Size = new Size(124, 35);
             uiLabel16.TabIndex = 24;
             // 
             // uiLabel15
@@ -385,9 +443,10 @@
             uiLabel15.BackColor = Color.Lavender;
             uiLabel15.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel15.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel15.Location = new Point(1188, 512);
+            uiLabel15.Location = new Point(950, 410);
+            uiLabel15.Margin = new Padding(2, 0, 2, 0);
             uiLabel15.Name = "uiLabel15";
-            uiLabel15.Size = new Size(155, 44);
+            uiLabel15.Size = new Size(124, 35);
             uiLabel15.TabIndex = 23;
             // 
             // uiLabel14
@@ -395,9 +454,10 @@
             uiLabel14.BackColor = Color.Lavender;
             uiLabel14.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel14.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel14.Location = new Point(1188, 431);
+            uiLabel14.Location = new Point(950, 345);
+            uiLabel14.Margin = new Padding(2, 0, 2, 0);
             uiLabel14.Name = "uiLabel14";
-            uiLabel14.Size = new Size(155, 44);
+            uiLabel14.Size = new Size(124, 35);
             uiLabel14.TabIndex = 22;
             // 
             // uiLabel13
@@ -405,9 +465,10 @@
             uiLabel13.BackColor = Color.White;
             uiLabel13.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel13.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel13.Location = new Point(1073, 614);
+            uiLabel13.Location = new Point(858, 491);
+            uiLabel13.Margin = new Padding(2, 0, 2, 0);
             uiLabel13.Name = "uiLabel13";
-            uiLabel13.Size = new Size(109, 50);
+            uiLabel13.Size = new Size(87, 40);
             uiLabel13.TabIndex = 21;
             uiLabel13.Text = "%";
             // 
@@ -416,9 +477,10 @@
             uiLabel12.BackColor = Color.White;
             uiLabel12.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel12.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel12.Location = new Point(1073, 689);
+            uiLabel12.Location = new Point(858, 551);
+            uiLabel12.Margin = new Padding(2, 0, 2, 0);
             uiLabel12.Name = "uiLabel12";
-            uiLabel12.Size = new Size(109, 50);
+            uiLabel12.Size = new Size(87, 40);
             uiLabel12.TabIndex = 20;
             uiLabel12.Text = "%";
             // 
@@ -427,9 +489,10 @@
             uiLabel11.BackColor = Color.White;
             uiLabel11.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel11.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel11.Location = new Point(1073, 431);
+            uiLabel11.Location = new Point(858, 345);
+            uiLabel11.Margin = new Padding(2, 0, 2, 0);
             uiLabel11.Name = "uiLabel11";
-            uiLabel11.Size = new Size(109, 50);
+            uiLabel11.Size = new Size(87, 40);
             uiLabel11.TabIndex = 19;
             uiLabel11.Text = "%";
             // 
@@ -438,81 +501,90 @@
             uiLabel10.BackColor = Color.White;
             uiLabel10.Font = new Font("Microsoft Sans Serif", 12F);
             uiLabel10.ForeColor = Color.FromArgb(48, 48, 48);
-            uiLabel10.Location = new Point(1064, 518);
+            uiLabel10.Location = new Point(851, 414);
+            uiLabel10.Margin = new Padding(2, 0, 2, 0);
             uiLabel10.Name = "uiLabel10";
-            uiLabel10.Size = new Size(109, 50);
+            uiLabel10.Size = new Size(87, 40);
             uiLabel10.TabIndex = 18;
             uiLabel10.Text = "%";
             // 
             // progressBar4
             // 
-            progressBar4.Location = new Point(489, 443);
+            progressBar4.Location = new Point(391, 354);
+            progressBar4.Margin = new Padding(2);
             progressBar4.Name = "progressBar4";
-            progressBar4.Size = new Size(508, 23);
+            progressBar4.Size = new Size(406, 18);
             progressBar4.TabIndex = 17;
             // 
             // progressBar3
             // 
-            progressBar3.Location = new Point(489, 702);
+            progressBar3.Location = new Point(391, 562);
+            progressBar3.Margin = new Padding(2);
             progressBar3.Name = "progressBar3";
-            progressBar3.Size = new Size(521, 22);
+            progressBar3.Size = new Size(417, 18);
             progressBar3.TabIndex = 16;
             // 
             // progressBar2
             // 
-            progressBar2.Location = new Point(489, 614);
+            progressBar2.Location = new Point(391, 491);
+            progressBar2.Margin = new Padding(2);
             progressBar2.Name = "progressBar2";
-            progressBar2.Size = new Size(521, 21);
+            progressBar2.Size = new Size(417, 17);
             progressBar2.TabIndex = 15;
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(489, 528);
+            progressBar1.Location = new Point(391, 422);
+            progressBar1.Margin = new Padding(2);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(521, 23);
+            progressBar1.Size = new Size(417, 18);
             progressBar1.TabIndex = 14;
             // 
             // uiLabel9
             // 
             uiLabel9.BackColor = Color.White;
-            uiLabel9.Font = new Font("Noto Sans SC", 12F, FontStyle.Underline);
+            uiLabel9.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Underline);
             uiLabel9.ForeColor = Color.SpringGreen;
-            uiLabel9.Location = new Point(309, 507);
+            uiLabel9.Location = new Point(247, 406);
+            uiLabel9.Margin = new Padding(2, 0, 2, 0);
             uiLabel9.Name = "uiLabel9";
-            uiLabel9.Size = new Size(155, 40);
+            uiLabel9.Size = new Size(124, 32);
             uiLabel9.TabIndex = 13;
             uiLabel9.Text = "Transport";
             // 
             // uiLabel8
             // 
             uiLabel8.BackColor = Color.White;
-            uiLabel8.Font = new Font("Noto Sans SC", 12F, FontStyle.Underline);
+            uiLabel8.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Underline);
             uiLabel8.ForeColor = Color.Fuchsia;
-            uiLabel8.Location = new Point(309, 595);
+            uiLabel8.Location = new Point(247, 476);
+            uiLabel8.Margin = new Padding(2, 0, 2, 0);
             uiLabel8.Name = "uiLabel8";
-            uiLabel8.Size = new Size(280, 40);
+            uiLabel8.Size = new Size(224, 32);
             uiLabel8.TabIndex = 12;
             uiLabel8.Text = "Shopping";
             // 
             // uiLabel7
             // 
             uiLabel7.BackColor = Color.White;
-            uiLabel7.Font = new Font("Noto Sans SC", 12F, FontStyle.Underline);
+            uiLabel7.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Underline);
             uiLabel7.ForeColor = Color.FromArgb(255, 128, 0);
-            uiLabel7.Location = new Point(309, 689);
+            uiLabel7.Location = new Point(247, 551);
+            uiLabel7.Margin = new Padding(2, 0, 2, 0);
             uiLabel7.Name = "uiLabel7";
-            uiLabel7.Size = new Size(140, 40);
+            uiLabel7.Size = new Size(112, 32);
             uiLabel7.TabIndex = 11;
             uiLabel7.Text = "Education";
             // 
             // uiLabel6
             // 
             uiLabel6.BackColor = Color.White;
-            uiLabel6.Font = new Font("Noto Sans SC", 12F, FontStyle.Underline);
+            uiLabel6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Underline);
             uiLabel6.ForeColor = Color.Red;
-            uiLabel6.Location = new Point(309, 426);
+            uiLabel6.Location = new Point(247, 341);
+            uiLabel6.Margin = new Padding(2, 0, 2, 0);
             uiLabel6.Name = "uiLabel6";
-            uiLabel6.Size = new Size(92, 40);
+            uiLabel6.Size = new Size(74, 32);
             uiLabel6.TabIndex = 10;
             uiLabel6.Text = "Food";
             // 
@@ -521,9 +593,10 @@
             uiLabel5.BackColor = Color.White;
             uiLabel5.Font = new Font("Script MT Bold", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             uiLabel5.ForeColor = Color.FromArgb(0, 0, 192);
-            uiLabel5.Location = new Point(330, 342);
+            uiLabel5.Location = new Point(264, 274);
+            uiLabel5.Margin = new Padding(2, 0, 2, 0);
             uiLabel5.Name = "uiLabel5";
-            uiLabel5.Size = new Size(389, 66);
+            uiLabel5.Size = new Size(311, 53);
             uiLabel5.TabIndex = 9;
             uiLabel5.Text = "Spending Breakdown";
             // 
@@ -531,9 +604,10 @@
             // 
             exit.BackColor = Color.Indigo;
             exit.ForeColor = SystemColors.ButtonHighlight;
-            exit.Location = new Point(763, 1067);
+            exit.Location = new Point(610, 854);
+            exit.Margin = new Padding(2);
             exit.Name = "exit";
-            exit.Size = new Size(234, 65);
+            exit.Size = new Size(187, 52);
             exit.TabIndex = 8;
             exit.Text = "EXIT";
             exit.UseVisualStyleBackColor = false;
@@ -542,39 +616,43 @@
             // 
             listBox1.ForeColor = SystemColors.Window;
             listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(86, 327);
+            listBox1.Location = new Point(69, 262);
+            listBox1.Margin = new Padding(2);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(1304, 468);
+            listBox1.Size = new Size(1044, 354);
             listBox1.TabIndex = 7;
             listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // uiLabel4
             // 
-            uiLabel4.Font = new Font("Noto Serif SC", 13.999999F, FontStyle.Bold);
+            uiLabel4.Font = new Font("Microsoft Sans Serif", 13.999999F, FontStyle.Bold);
             uiLabel4.ForeColor = Color.FromArgb(0, 0, 192);
-            uiLabel4.Location = new Point(1155, 130);
+            uiLabel4.Location = new Point(924, 104);
+            uiLabel4.Margin = new Padding(2, 0, 2, 0);
             uiLabel4.Name = "uiLabel4";
-            uiLabel4.Size = new Size(1081, 39);
+            uiLabel4.Size = new Size(865, 31);
             uiLabel4.TabIndex = 6;
             uiLabel4.Text = "NET SAVING";
             // 
             // uiLabel3
             // 
-            uiLabel3.Font = new Font("Noto Serif SC", 13.999999F, FontStyle.Bold);
+            uiLabel3.Font = new Font("Microsoft Sans Serif", 13.999999F, FontStyle.Bold);
             uiLabel3.ForeColor = Color.FromArgb(0, 0, 192);
-            uiLabel3.Location = new Point(635, 122);
+            uiLabel3.Location = new Point(508, 98);
+            uiLabel3.Margin = new Padding(2, 0, 2, 0);
             uiLabel3.Name = "uiLabel3";
-            uiLabel3.Size = new Size(1081, 37);
+            uiLabel3.Size = new Size(865, 30);
             uiLabel3.TabIndex = 5;
             uiLabel3.Text = "TOTAL EXPENSE";
             // 
             // uiLabel2
             // 
-            uiLabel2.Font = new Font("Noto Serif SC", 13.999999F, FontStyle.Bold);
+            uiLabel2.Font = new Font("Microsoft Sans Serif", 13.999999F, FontStyle.Bold);
             uiLabel2.ForeColor = Color.MidnightBlue;
-            uiLabel2.Location = new Point(136, 120);
+            uiLabel2.Location = new Point(109, 96);
+            uiLabel2.Margin = new Padding(2, 0, 2, 0);
             uiLabel2.Name = "uiLabel2";
-            uiLabel2.Size = new Size(265, 39);
+            uiLabel2.Size = new Size(212, 31);
             uiLabel2.TabIndex = 4;
             uiLabel2.Text = "TOTAL INCOME";
             // 
@@ -583,9 +661,10 @@
             saving.BackColor = Color.CornflowerBlue;
             saving.Font = new Font("Microsoft Sans Serif", 12F);
             saving.ForeColor = Color.FromArgb(48, 48, 48);
-            saving.Location = new Point(1087, 180);
+            saving.Location = new Point(870, 144);
+            saving.Margin = new Padding(2, 0, 2, 0);
             saving.Name = "saving";
-            saving.Size = new Size(303, 94);
+            saving.Size = new Size(242, 75);
             saving.TabIndex = 3;
             // 
             // expense
@@ -593,9 +672,10 @@
             expense.BackColor = Color.LightPink;
             expense.Font = new Font("Microsoft Sans Serif", 12F);
             expense.ForeColor = Color.FromArgb(48, 48, 48);
-            expense.Location = new Point(591, 180);
+            expense.Location = new Point(473, 144);
+            expense.Margin = new Padding(2, 0, 2, 0);
             expense.Name = "expense";
-            expense.Size = new Size(273, 94);
+            expense.Size = new Size(218, 75);
             expense.TabIndex = 2;
             expense.Click += expense_Click;
             // 
@@ -604,9 +684,10 @@
             income.BackColor = Color.PaleGreen;
             income.Font = new Font("Microsoft Sans Serif", 12F);
             income.ForeColor = Color.FromArgb(48, 48, 48);
-            income.Location = new Point(87, 180);
+            income.Location = new Point(70, 144);
+            income.Margin = new Padding(2, 0, 2, 0);
             income.Name = "income";
-            income.Size = new Size(251, 92);
+            income.Size = new Size(201, 74);
             income.TabIndex = 1;
             // 
             // uiLabel1
@@ -615,8 +696,9 @@
             uiLabel1.Font = new Font("Modern No. 20", 15.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
             uiLabel1.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel1.Location = new Point(0, 0);
+            uiLabel1.Margin = new Padding(2, 0, 2, 0);
             uiLabel1.Name = "uiLabel1";
-            uiLabel1.Size = new Size(1627, 89);
+            uiLabel1.Size = new Size(1302, 71);
             uiLabel1.TabIndex = 0;
             uiLabel1.Text = "REPORT";
             uiLabel1.TextAlign = ContentAlignment.MiddleCenter;
@@ -624,8 +706,9 @@
             // tabPage6
             // 
             tabPage6.Location = new Point(201, 0);
+            tabPage6.Margin = new Padding(2);
             tabPage6.Name = "tabPage6";
-            tabPage6.Size = new Size(1484, 892);
+            tabPage6.Size = new Size(1147, 714);
             tabPage6.TabIndex = 5;
             tabPage6.Text = "Account";
             tabPage6.UseVisualStyleBackColor = true;
@@ -633,12 +716,14 @@
             // tabPage7
             // 
             tabPage7.Location = new Point(201, 0);
+            tabPage7.Margin = new Padding(2);
             tabPage7.Name = "tabPage7";
-            tabPage7.Size = new Size(1484, 892);
+            tabPage7.Size = new Size(1147, 714);
             tabPage7.TabIndex = 6;
             tabPage7.Text = "Logout";
             tabPage7.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // uiLabel26
             // 
             uiLabel26.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
@@ -830,11 +915,141 @@
             uiButton2.TipsFont = new Font("Microsoft Sans Serif", 8F, FontStyle.Bold);
             uiButton2.TipsForeColor = Color.Black;
             uiButton2.Click += uiButton2_Click;
+=======
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft PhagsPa", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ActiveCaptionText;
+            label1.Location = new Point(0, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(208, 44);
+            label1.TabIndex = 0;
+            label1.Text = "Savings Goal";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(15, 89);
+            label2.Name = "label2";
+            label2.Size = new Size(88, 25);
+            label2.TabIndex = 1;
+            label2.Text = "Goald ID";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(15, 135);
+            label3.Name = "label3";
+            label3.Size = new Size(121, 25);
+            label3.TabIndex = 2;
+            label3.Text = "Goald Name";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(15, 183);
+            label4.Name = "label4";
+            label4.Size = new Size(142, 25);
+            label4.TabIndex = 3;
+            label4.Text = "Target Amount";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(15, 230);
+            label5.Name = "label5";
+            label5.Size = new Size(142, 25);
+            label5.TabIndex = 4;
+            label5.Text = "Saved Amount";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(15, 279);
+            label6.Name = "label6";
+            label6.Size = new Size(90, 25);
+            label6.TabIndex = 5;
+            label6.Text = "Progress";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(187, 89);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(398, 30);
+            textBox1.TabIndex = 6;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(187, 135);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(398, 30);
+            textBox2.TabIndex = 7;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(187, 183);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(398, 30);
+            textBox3.TabIndex = 8;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(187, 230);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(398, 30);
+            textBox4.TabIndex = 9;
+            // 
+            // progressBar5
+            // 
+            progressBar5.Location = new Point(191, 290);
+            progressBar5.Name = "progressBar5";
+            progressBar5.Size = new Size(394, 14);
+            progressBar5.TabIndex = 10;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(605, 290);
+            label7.Name = "label7";
+            label7.Size = new Size(30, 25);
+            label7.TabIndex = 11;
+            label7.Text = "%";
+            // 
+            // uiButton1
+            // 
+            uiButton1.FillColor = Color.Black;
+            uiButton1.Font = new Font("Microsoft Sans Serif", 12F);
+            uiButton1.Location = new Point(15, 326);
+            uiButton1.MinimumSize = new Size(1, 1);
+            uiButton1.Name = "uiButton1";
+            uiButton1.RectColor = Color.White;
+            uiButton1.RectHoverColor = Color.FromArgb(0, 0, 192);
+            uiButton1.RectPressColor = Color.Blue;
+            uiButton1.RectSelectedColor = Color.FromArgb(0, 0, 192);
+            uiButton1.Size = new Size(125, 44);
+            uiButton1.TabIndex = 12;
+            uiButton1.Text = "INSERT";
+            uiButton1.TipsFont = new Font("Microsoft Sans Serif", 9F);
+            // 
+            // uiButton2
+            // 
+            uiButton2.FillColor = Color.Black;
+            uiButton2.Font = new Font("Microsoft Sans Serif", 12F);
+            uiButton2.Location = new Point(205, 326);
+            uiButton2.MinimumSize = new Size(1, 1);
+            uiButton2.Name = "uiButton2";
+            uiButton2.Size = new Size(125, 44);
+            uiButton2.TabIndex = 13;
+            uiButton2.Text = "UPDATE";
+            uiButton2.TipsFont = new Font("Microsoft Sans Serif", 9F);
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             // 
             // uiButton3
             // 
             uiButton3.FillColor = Color.Red;
             uiButton3.Font = new Font("Microsoft Sans Serif", 12F);
+<<<<<<< HEAD
             uiButton3.ForeColor = Color.Black;
             uiButton3.Location = new Point(511, 487);
             uiButton3.MinimumSize = new Size(1, 1);
@@ -920,10 +1135,51 @@
             uiDataGridView1.Size = new Size(1065, 294);
             uiDataGridView1.StripeOddColor = Color.FromArgb(235, 243, 255);
             uiDataGridView1.TabIndex = 14;
+=======
+            uiButton3.Location = new Point(389, 326);
+            uiButton3.MinimumSize = new Size(1, 1);
+            uiButton3.Name = "uiButton3";
+            uiButton3.Size = new Size(125, 44);
+            uiButton3.TabIndex = 14;
+            uiButton3.Text = "DELETE";
+            uiButton3.TipsFont = new Font("Microsoft Sans Serif", 9F);
+            // 
+            // uiButton4
+            // 
+            uiButton4.FillColor = Color.Red;
+            uiButton4.Font = new Font("Microsoft Sans Serif", 12F);
+            uiButton4.Location = new Point(558, 326);
+            uiButton4.MinimumSize = new Size(1, 1);
+            uiButton4.Name = "uiButton4";
+            uiButton4.Size = new Size(125, 44);
+            uiButton4.TabIndex = 15;
+            uiButton4.Text = "CLEAR";
+            uiButton4.TipsFont = new Font("Microsoft Sans Serif", 9F);
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
+            dataGridView1.Location = new Point(15, 420);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(796, 209);
+            dataGridView1.TabIndex = 16;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(15, 392);
+            label9.Name = "label9";
+            label9.Size = new Size(118, 25);
+            label9.TabIndex = 18;
+            label9.Text = "Goal History";
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             // 
             // Column1
             // 
             Column1.HeaderText = "ID";
+<<<<<<< HEAD
             Column1.MinimumWidth = 8;
             Column1.Name = "Column1";
             Column1.Width = 200;
@@ -932,18 +1188,34 @@
             // 
             Column2.HeaderText = "Category";
             Column2.MinimumWidth = 8;
+=======
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            Column1.Width = 50;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Goal Name";
+            Column2.MinimumWidth = 6;
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             Column2.Name = "Column2";
             Column2.Width = 200;
             // 
             // Column3
             // 
+<<<<<<< HEAD
             Column3.HeaderText = "Amount";
             Column3.MinimumWidth = 8;
+=======
+            Column3.HeaderText = "Target";
+            Column3.MinimumWidth = 6;
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             Column3.Name = "Column3";
             Column3.Width = 200;
             // 
             // Column4
             // 
+<<<<<<< HEAD
             Column4.HeaderText = "Date";
             Column4.MinimumWidth = 8;
             Column4.Name = "Column4";
@@ -953,22 +1225,39 @@
             // 
             Column5.HeaderText = "Description";
             Column5.MinimumWidth = 8;
+=======
+            Column4.HeaderText = "Saved";
+            Column4.MinimumWidth = 6;
+            Column4.Name = "Column4";
+            Column4.Width = 150;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Progress";
+            Column5.MinimumWidth = 6;
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             Column5.Name = "Column5";
             Column5.Width = 200;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1681, 889);
+            ClientSize = new Size(1345, 711);
             Controls.Add(uiTabControlMenu1);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
             uiTabControlMenu1.ResumeLayout(false);
             tabPage3.ResumeLayout(false);
             tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
             tabPage5.ResumeLayout(false);
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)uiDataGridView1).EndInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
             ResumeLayout(false);
         }
 
@@ -1018,6 +1307,7 @@
         private Sunny.UI.UILabel uiLabel19;
         private Sunny.UI.UILabel uiLabel18;
         private Button button1;
+<<<<<<< HEAD
         private Button button2;
         private Sunny.UI.UILabel uiLabel26;
         private ImageList imageListEXPENSE;
@@ -1038,6 +1328,26 @@
         private Sunny.UI.UIButton uiButton4;
         private Sunny.UI.UIButton uiButton3;
         private Sunny.UI.UIDataGridView uiDataGridView1;
+=======
+        private Label label1;
+        private ProgressBar progressBar5;
+        private TextBox textBox4;
+        private TextBox textBox3;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Label label6;
+        private Label label5;
+        private Label label4;
+        private Label label3;
+        private Label label2;
+        private DataGridView dataGridView1;
+        private Sunny.UI.UIButton uiButton4;
+        private Sunny.UI.UIButton uiButton3;
+        private Sunny.UI.UIButton uiButton2;
+        private Sunny.UI.UIButton uiButton1;
+        private Label label7;
+        private Label label9;
+>>>>>>> ef0d64cac483e4aa9f91ac3eb6424ea25ebde378
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
