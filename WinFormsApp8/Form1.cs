@@ -11,5 +11,10 @@ namespace WinFormsApp8
         {
 
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
